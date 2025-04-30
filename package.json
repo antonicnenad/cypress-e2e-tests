@@ -1,0 +1,20 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test:chrome": "cypress run --browser chrome",
+  "test:headless": "cypress run",
+  "test:app1": "cypress run --spec 'apps/app1-e2e/**/*.cy.ts'",
+  "test:app2": "cypress run --spec 'apps/app2-swagger/**/*.cy.ts'"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

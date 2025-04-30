@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Cypress outputs
+cypress/screenshots/
+cypress/videos/
+
+# Cypress cache
+.cache/
+dist/
+coverage/
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Environment & build
+.env
+.env.local
+
+# Docker artifacts
+docker-compose.override.yml
+docker-data/
