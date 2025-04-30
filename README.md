@@ -1,3 +1,5 @@
+# Cypress E2E Tests ![Cypress Tests](https://github.com/antonicnenad/cypress-e2e-tests/actions/workflows/cypress.yml/badge.svg)
+
 # Cypress E2E Automation Project
 
 This project is an end-to-end testing suite built with **Cypress** and **TypeScript**, designed to test two key application flows of the demo app available at [https://bookcart.azurewebsites.net/](https://bookcart.azurewebsites.net/).
@@ -159,4 +161,5 @@ docker run --rm cypress-tests
 **Nenad Antonic** – QA Automation Engineer
 
 Feel free to clone, run and modify!
+
 # cypress-e2e-tests
