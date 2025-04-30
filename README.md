@@ -1,7 +1,5 @@
 # Cypress E2E Tests ![Cypress Tests](https://github.com/antonicnenad/cypress-e2e-tests/actions/workflows/cypress.yml/badge.svg)
 
-# Cypress E2E Automation Project
-
 This project is an end-to-end testing suite built with **Cypress** and **TypeScript**, designed to test two key application flows of the demo app available at [https://bookcart.azurewebsites.net/](https://bookcart.azurewebsites.net/).
 
 The project follows Cypress best practices and includes:
@@ -11,6 +9,8 @@ The project follows Cypress best practices and includes:
 - **Session caching** for login
 - **Test cleanup** after execution
 - Docker setup for isolated execution
+
+> ⚠️ **Note:** The test suite expects that a user with the credentials from `cypress/fixtures/user.json` is **already registered** on the app [https://bookcart.azurewebsites.net](https://bookcart.azurewebsites.net). Registration is a manual prerequisite.
 
 ---
 
@@ -161,5 +161,3 @@ docker run --rm cypress-tests
 **Nenad Antonic** – QA Automation Engineer
 
 Feel free to clone, run and modify!
-
-# cypress-e2e-tests
