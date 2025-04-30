@@ -1,5 +1,3 @@
-# Cypress E2E Tests ![Cypress Tests](https://github.com/antonicnenad/cypress-e2e-tests/actions/workflows/cypress.yml/badge.svg)
-
 This project is an end-to-end testing suite built with **Cypress** and **TypeScript**, designed to test two key application flows of the demo app available at [https://bookcart.azurewebsites.net/](https://bookcart.azurewebsites.net/).
 
 The project follows Cypress best practices and includes:
